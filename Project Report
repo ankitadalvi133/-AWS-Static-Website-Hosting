@@ -1,0 +1,34 @@
+Project Name : AWS Static Website Hosting
+
+Objective  : To host a static website on AWS using Amazon S3 and make it accessible through a public URL.
+
+Services Used
+
+* Amazon S3
+* Static Website Hosting
+
+Procedure
+
+1. Created an S3 bucket.
+2. Enabled Static Website Hosting.
+3. Uploaded website files (index.html and related files).
+4. Configured bucket permissions for public access.
+5. Generated the website endpoint URL.
+6. Tested website accessibility through a browser.
+
+Architecture
+
+User Browser
+|
+v
+Amazon S3 Bucket
+|
+Static Website Hosting
+
+Result
+
+Successfully hosted a static website on Amazon S3 and accessed it through the generated website URL.
+
+Conclusion
+
+Amazon S3 provides a simple and cost-effective solution for hosting static websites without managing servers.
